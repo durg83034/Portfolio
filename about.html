@@ -81,6 +81,7 @@
         <div class="navigation-links">
           <a class="active" href="#contact">Contact</a>
           <a href="Work.html">Work</a>
+          <a class="active" href="#gallery">Gallery</a>
           <a class="active" href="about.html">About</a>
           <a href="https://durg83034.github.io/Durgesh/">Skills</a>
         </div>
@@ -98,6 +99,7 @@
       <ul>
         <li><a href="https://durg83034.github.io/Durgesh/" class="nav-link scrollto"><span>Skills</span></a></li>
         <li><a href="about.html" class="active nav-link scrollto"><span>About</span></a></li>
+        <li><a href="#gallery" class="nav-link scrollto"><span>Gallery</span></a></li>
         <li><a href="Work.html" class="nav-link scrollto"><span>Work</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><span>Contact</span></a></li>
       </ul>
@@ -290,8 +292,7 @@
                   </li> 
                   <li>Certificate <button class="custom-btn-sm" style="background-color: whitesmoke;" >
                     <a href="assets/img/CF/vlab.png" target="_blank">Click</a></button>
-                    <li>Photo <button class="custom-btn-sm" style="background-color: whitesmoke;" >
-                      <a href="assets/img/CF/vljpg.jpg" target="_blank">Click</a></button>
+        
                   </li>
               </ul>
               <h5>Sep 2023 - Oct 2023</h5>  
@@ -439,6 +440,39 @@
     </section>
     <!-- End Resume Section -->
 
+<!-- ===== Gallery Section Start -->
+<section id="gallery" class="work pl-3 pr-3 pb-3">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title" >
+      <h2>Gallery</h2>
+    </div>
+<div class="swiper-wrapper">
+  <div class="slideshow-container" >
+    <div class="slides"><img src="assets/img/UG/5.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/gol.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/1.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/IMG_20240223_171619.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/4.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/ffj.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/2.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/ff.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/6.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/Durgesh bgblur.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/3.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/8.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/20231124_161832.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/7.jpg" alt=""></div>
+    <div class="slides"><img src="assets/img/UG/9.jpg" alt=""></div>
+     
+  </section>
+    </div>
+    </div>
+    </div>
+
+  <!-- ======= Gallery  Section End ======= -->
+
+
+    
 
 <!-- ======= Contact Section ======= -->
 <section id="contact" class="contact px-3">
@@ -513,6 +547,21 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.slides');
+
+  function showSlides() {
+    slides.forEach((slide, index) => {
+      slide.style.display = (index === currentSlide) ? 'block' : 'none';
+    });
+    currentSlide = (currentSlide + 1) % slides.length;
+  }
+
+  showSlides();
+setInterval(showSlides, 2500); // Change image every 3 seconds
+</script>
   
 </body>
 
