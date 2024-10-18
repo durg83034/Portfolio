@@ -1380,6 +1380,54 @@ section {
   color: #343a40;
 }
 
+ /*--------------------------------------------------------------
+# Gallery start
+--------------------------------------------------------------*/
+
+
+
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 45vh;
+  margin: auto;
+}
+
+.slides {
+  display : none;
+  width: 100%;
+  position: relative;
+}
+
+.slides img {
+  width: 50vh;
+  margin-top: 20%;
+  height: 65vh;
+
+  object-fit: cover;
+/*  object-fit: calc(cover);*/
+}
+
+@media (max-width: 600px) {
+  .slideshow-container {
+      max-width: 100%; /* Full width on smaller screens */
+ }
+  
+  
+}
+
+
+
+/*--------------------------------------------------------------
+#Gallery End
+--------------------------------------------------------------*/
+
+
+
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
