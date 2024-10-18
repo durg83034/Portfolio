@@ -1384,15 +1384,10 @@ section {
 # Gallery start
 --------------------------------------------------------------*/
 
-
-
-
 .slideshow-container {
   position: relative;
   max-width: 100%;
   overflow: hidden;
-  margin: 0 auto;
-  margin-top: 45vh;
   margin: auto;
 }
 
@@ -1403,23 +1398,17 @@ section {
 }
 
 .slides img {
-  width: 50vh;
+  width: vh;
   margin-top: 20%;
-  height: 65vh;
-
+  height: 60vh;
   object-fit: cover;
-/*  object-fit: calc(cover);*/
 }
 
 @media (max-width: 600px) {
   .slideshow-container {
       max-width: 100%; /* Full width on smaller screens */
- }
-  
-  
+ }  
 }
-
-
 
 /*--------------------------------------------------------------
 #Gallery End
