@@ -1406,8 +1406,19 @@ section {
 
 @media (max-width: 600px) {
   .slideshow-container {
-      max-width: 100%; /* Full width on smaller screens */
- }  
+    max-width: 100%; /* Ensure slideshow is full width */
+    padding: 0; /* Remove any padding */
+  }
+
+  .slides img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10%; /* Adjust top margin for better spacing */
+  }
+
+  .slideshow-container .slides {
+    display: block; /* Ensure slides are displayed */
+  }
 }
 
 /*--------------------------------------------------------------
