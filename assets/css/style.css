@@ -6,13 +6,41 @@
 --------------------------------------------------------------*/
   .main {
     margin: .0%;
-    background-image: url(/assets/img/5.jpg);
+    
     width: 94.9rem;
     height: 52rem;
     background-size: cover;
     border: 1px solid rgb(253, 250, 250);
     border-radius: 5px;
     position: relative;
+}
+.iconsm1{
+  display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: -30px;
+    margin: 0px;
+    
+  }
+  
+.iconsm1 a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.iconsm1 a i {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.iconsm1 a:hover {
+  color: #0077b5; /* Change color on hover */
 }
 .container{
   padding-left: 100px;
@@ -1967,7 +1995,11 @@ section {
 
 .iconsm{
   font-size: 20px !important;
-    
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 0px;
   }
 #footer .copyright-1 {
   font-family: "Poppins", sans-serif;
