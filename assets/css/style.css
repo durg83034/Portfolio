@@ -306,9 +306,9 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a span {
   background-image: linear-gradient(
     to right,
-    #343a40,
-    #343a40 50%,
-    #777777 50%
+  #58cbba,
+  #4c5863 50%,
+  #000407 50%
   );
   margin-right:15px;
   background-size: 200% 100%;
@@ -398,9 +398,9 @@ h1, h2, h3, h4, h5, h6 {
 
   background-image: linear-gradient(
   to right,
-  #343a40,
+  #58cbba,
   #343a40 50%,
-  #999999 50%
+  #000407 50%
 );
 margin-right:15px;
 background-size: 200% 100%;
@@ -562,7 +562,7 @@ transition: all 0.3s ease-in-out;
   background-image: linear-gradient(
     to right,
     #343a40,
-    #343a40 50%,
+    #46484a 50%,
     #2979de 50%
   );
   margin-right:15px;
@@ -905,8 +905,8 @@ section {
 .resume .resume-item #hyperlink a {
   background-image: linear-gradient(
     to right,
-    #343a40,
-    #343a40 50%,
+    #bec627,
+    #333536 50%,
     #2979de 50%
   );
   background-size: 200% 100%;
@@ -1792,8 +1792,8 @@ section {
 #contact .contact-links a {
   background-image: linear-gradient(
     to right,
-    #343a40,
-    #343a40 50%,
+    #7797b6,
+    #ac921e 50%,
     #2979de 50%
   );
   margin-right:15px;
@@ -2020,9 +2020,9 @@ section {
 #footer .copyright-2 a {
   background-image: linear-gradient(
     to right,
-    #343a40,
-    #343a40 50%,
-    #2979de 50%
+    #7b8da0,
+    #44a47a 50%,
+    #9de92b 50%
   );
   font-weight: 500;
   background-size: 200% 100%;
